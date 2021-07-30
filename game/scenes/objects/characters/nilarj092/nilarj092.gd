@@ -18,7 +18,7 @@ func _physics_process(delta):
 		move_direction.x = -PlayerVar.speed
 	if(key_right):
 		move_direction.x = PlayerVar.speed
-		
+	
 	move_and_collide(move_direction)
 
 func _input(event):
