@@ -8,4 +8,3 @@
 [node name="map_surface" parent="." instance=ExtResource( 1 )]
 
 [node name="cha_nilarj092" parent="." instance=ExtResource( 2 )]
-position = Vector2( 55.0125, 47.0664 )

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sandstorm.mp3-eea4bfcc95088149a7ca9b69c5d8d004.mp3str"
+
+[deps]
+
+source_file="res://resources/sounds/maps/sandstorm.mp3"
+dest_files=[ "res://.import/sandstorm.mp3-eea4bfcc95088149a7ca9b69c5d8d004.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

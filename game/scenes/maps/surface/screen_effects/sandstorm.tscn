@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://resources/sounds/maps/sandstorm.mp3" type="AudioStream" id=1]
+
+[sub_resource type="ParticlesMaterial" id=1]
+emission_shape = 2
+emission_box_extents = Vector3( 1024, 600, 1 )
+flag_disable_z = true
+gravity = Vector3( 750, 80, 0 )
+initial_velocity = 500.0
+initial_velocity_random = 0.15
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+scale = 3.0
+scale_random = 1.0
+color = Color( 0.490196, 0.247059, 0.0627451, 1 )
+
+[node name="effect_sandstorm" type="Particles2D"]
+amount = 600
+lifetime = 10.0
+randomness = 1.0
+process_material = SubResource( 1 )
+
+[node name="sandstorm_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = -5.0
+autoplay = true
+mix_target = 1
