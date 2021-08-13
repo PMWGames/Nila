@@ -11,4 +11,4 @@ func _init():
 	var range_y = MapVar.map_area_y / 2
 	for x in range(MapVar.map_area_x):
 		for y in range(MapVar.map_area_y):
-			set_cell(x - range_x, y - range_y, rng.randi_range(0, 3))
+			set_cell(x - range_x, y - range_y, 0)
